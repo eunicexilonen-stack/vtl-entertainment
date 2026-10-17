@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+  const SUPABASE_URL = "https://twrnlxdipfrgyrtatpbk.supabase.co/rest/v1/";
+  const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_clJKyFbadobsPICHOGuLDQ_OkSRc6Oe";
+  const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_PUBLISHABLE_KEY
+);
+</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VTL ENTERTAINMENT | 꿈을 향한 여정</title>
 <style>
